@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <meta charset="utf-8">
+        <title>심플포트폴리오</title>
+        <link rel="stylesheet" href="css/reset.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <script src="https://kit.fontawesome.com/0d8f041a20.js" crossorigin="anonymous"></script>
+       <script>
+            $(document).ready(function(){
+                $('.slider').bxSlider({
+                    controls: false,
+                    pager: false,
+                    auto: true
+                });
+            }); 
+        </script>
+    </head>
+    <body>
+        <div class="overlay"></div>
+        <div class="slider">
+            <div class="background_01"></div>
+            <div class="background_02"></div>
+            <div class="background_03"></div>
+        </div>
+        <div class="contents">
+            <p class="contents_name">GO YE JI</p>
+            <p class="contents_job">I'm Web Programmer & Web Desginer</p>
+            <div class="contents_sns">
+                <ul class="contents_list">
+                    <li></i>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-solid fa-blog"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
